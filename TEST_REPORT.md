@@ -52,12 +52,8 @@ OK
 
 ```python
 def safe_division(a, b):
-    # try:
-    #     # 處理除以零的情況
-    #     if b == 0:
-    #         return None
-    #     return a / b
-    # except ZeroDivisionError:
+    # # 處理除以零的情況
+    # if b == 0:
     #     return None
     
     # 直接執行除法，不處理例外

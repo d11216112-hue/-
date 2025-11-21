@@ -21,10 +21,7 @@ def safe_division(a, b):
         >>> safe_division(10, 0)
         None
     """
-    try:
-        # 處理除以零的情況
-        if b == 0:
-            return None
-        return a / b
-    except ZeroDivisionError:
+    # 處理除以零的情況
+    if b == 0:
         return None
+    return a / b
