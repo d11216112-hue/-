@@ -10,12 +10,11 @@ def safe_division(a, b):
     Safely divide two numbers, preventing division by zero.
     
     Args:
-        a: The numerator (dividend)
-        b: The denominator (divisor)
+        a (float or int): The numerator (dividend)
+        b (float or int): The denominator (divisor)
     
     Returns:
-        The result of a/b if b is not zero
-        None if b is zero (to prevent division by zero error)
+        float or None: The result of a/b if b is not zero, None if b is zero
     
     Examples:
         >>> safe_division(10, 2)
